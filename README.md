@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
 
-##Terminal commands
+## Terminal commands
 
 1. In the root directory, run `npm install`.
 2. Run `ng serve` to launch the service.
