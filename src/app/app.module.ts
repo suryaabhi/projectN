@@ -7,6 +7,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { HeaderComponent } from './header/header.component';
 import { QuickSidebarComponent } from './quick-sidebar/quick-sidebar.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
     DashboardComponent,
     SidebarComponent,
     HeaderComponent,
-    QuickSidebarComponent
+    QuickSidebarComponent,
+    ProfileComponent,
   ],
   imports: [
     BrowserModule,
