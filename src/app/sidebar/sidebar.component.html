@@ -1,26 +1,15 @@
-<!-- BEGIN SIDEBAR -->
 <div class="page-sidebar-wrapper">
-    <!-- BEGIN SIDEBAR -->
-    <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
-    <!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
     <div class="page-sidebar navbar-collapse collapse">
-        <!-- BEGIN SIDEBAR MENU -->
-        <!-- DOC: Apply "page-sidebar-menu-light" class right after "page-sidebar-menu" to enable light sidebar menu style(without borders) -->
-        <!-- DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
-        <!-- DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
-        <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
-        <!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
-        <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
         <ul class="page-sidebar-menu   " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
-            <li class="nav-item start active open">
-                <a href="javascript:;" class="nav-link">
+            <li routerLink="/" routerLinkActive="active" class="nav-item start" [routerLinkActiveOptions]="{exact: true}">
+                <a href="/" class="nav-link">
                     <i class="icon-home"></i>
                     <span class="title">Dashboard</span>
                     <span class="selected"></span>
                 </a>
             </li>
 
-            <li class="nav-item">
+            <li routerLink="/profile" routerLinkActive="active" class="nav-item">
                 <a href="/profile" class="nav-link">
                     <i class="icon-user"></i>
                     <span class="title">Profile</span>
@@ -28,40 +17,40 @@
                 </a>
             </li>
 
-            <li class="nav-item">
-                <a href="javascript:;" class="nav-link nav-toggle">
+            <li routerLink="/leaves" routerLinkActive="active" class="nav-item">
+                <a href="/leaves" class="nav-link nav-toggle">
                     <i class="icon-map"></i>
                     <span class="title">Leaves</span>
                     <span class="selected"></span>
                 </a>
             </li>
 
-            <li class="nav-item">
-                <a href="javascript:;" class="nav-link">
+            <li routerLink="/inbox" routerLinkActive="active" class="nav-item">
+                <a href="/inbox" class="nav-link">
                     <i class="icon-drawer"></i>
                     <span class="title">Inbox</span>
                     <span class="selected"></span>
                 </a>
             </li>
 
-            <li class="nav-item">
-                <a href="javascript:;" class="nav-link">
+            <li routerLink="/attendance" routerLinkActive="active" class="nav-item">
+                <a href="/attendance" class="nav-link">
                     <i class="icon-user-following"></i>
                     <span class="title">Attendance</span>
                     <span class="selected"></span>
                 </a>
             </li>
 
-            <li class="nav-item">
-                <a href="javascript:;" class="nav-link">
+            <li routerLink="/schedule" routerLinkActive="active" class="nav-item">
+                <a href="/schedule" class="nav-link">
                     <i class="icon-calendar"></i>
                     <span class="title">Schedule</span>
                     <span class="selected"></span>
                 </a>
             </li>
 
-            <li class="nav-item">
-                <a href="javascript:;" class="nav-link">
+            <li routerLink="/contacts" routerLinkActive="active" class="nav-item">
+                <a href="/contacts" class="nav-link">
                     <i class="icon-notebook"></i>
                     <span class="title">Contacts</span>
                     <span class="selected"></span>
@@ -142,8 +131,5 @@
                 </ul>
             </li>
         </ul>
-        <!-- END SIDEBAR MENU -->
     </div>
-    <!-- END SIDEBAR -->
 </div>
-<!-- END SIDEBAR -->

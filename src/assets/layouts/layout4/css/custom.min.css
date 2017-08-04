@@ -14,3 +14,22 @@
 .page-sidebar .page-sidebar-menu>li.active>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a {
   border-left: 3px solid #7f3bca!important;
 }
+@media (max-width: 767px) {
+	.page-header.navbar{
+		background: #7f3bca;
+		border-bottom: 1px solid #6021a5;
+	}
+} 
+.page-header.navbar{
+	background: #7f3bca;
+	border-bottom: 1px solid #6021a5;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle:hover,
+.page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle:after,
+.page-header.navbar .top-menu .navbar-nav>li.dropdown.open .dropdown-toggle
+ {
+	background-color: #4b1488;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i{
+	color: #ffffff;
+}
