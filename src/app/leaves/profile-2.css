@@ -9,7 +9,7 @@ Profile Page
     position: relative;
 }
 
-.profile {
+.page-container-bg-solid .profile {
     background: #ffffff;
     padding: 20px;
 }
